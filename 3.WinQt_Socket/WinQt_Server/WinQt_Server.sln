@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinQt_Server", "WinQt_Server\WinQt_Server.vcproj", "{56325866-BF30-44C9-94CF-39F9B427A62A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56325866-BF30-44C9-94CF-39F9B427A62A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{56325866-BF30-44C9-94CF-39F9B427A62A}.Debug|Win32.Build.0 = Debug|Win32
+		{56325866-BF30-44C9-94CF-39F9B427A62A}.Release|Win32.ActiveCfg = Release|Win32
+		{56325866-BF30-44C9-94CF-39F9B427A62A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

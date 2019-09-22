@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QKeyBoard", "QKeyBoard\QKeyBoard.vcproj", "{DAAB78AF-F9C0-474E-BD5F-82C05D0DF5D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAAB78AF-F9C0-474E-BD5F-82C05D0DF5D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DAAB78AF-F9C0-474E-BD5F-82C05D0DF5D1}.Debug|Win32.Build.0 = Debug|Win32
+		{DAAB78AF-F9C0-474E-BD5F-82C05D0DF5D1}.Release|Win32.ActiveCfg = Release|Win32
+		{DAAB78AF-F9C0-474E-BD5F-82C05D0DF5D1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

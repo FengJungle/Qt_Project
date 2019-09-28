@@ -16,7 +16,8 @@ public:
 	QKeyBoard(QWidget *parent = 0, Qt::WFlags flags = 0);
 	~QKeyBoard();
 
-	void keyPressEvent(QKeyEvent *e);
+	void keyPressEvent(QKeyEvent *event);
+	void keyReleaseEvent(QKeyEvent *event);
 
 private:
 	Ui::QKeyBoardClass ui;

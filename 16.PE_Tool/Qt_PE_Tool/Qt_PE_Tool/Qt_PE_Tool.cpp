@@ -35,6 +35,7 @@ Qt_PE_Tool::~Qt_PE_Tool()
 {
 	if (NULL != itemArr) {
 		delete[]itemArr;
+		itemArr = NULL;
 	}
 }
 
@@ -116,7 +117,8 @@ void Qt_PE_Tool::parsePE(char* filePE)
 	}
 
 	memset(section_header_arr, 0, sizeof(IMAGE_SECTION_HEADER)*pe_header.NumberOfSections);
-	free(section_header_arr);
+	free(section_header_arr); 
+	section_header_arr = NULL;
 }
 
 void Qt_PE_Tool::openExeFile()
